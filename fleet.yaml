@@ -1,0 +1,5 @@
+clusterName: foo2-custom
+dependsOn:
+  - name: argocd-argocd
+helm:
+  repo: https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
