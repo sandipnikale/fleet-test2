@@ -5,7 +5,7 @@ dependsOn:
 
 helm:
   chart: ./chart
-  repo: https://git.rancher.io/partner-charts
+  repo: https://github.com/sandipnikale/argo-helm.git
   
 kustomize:
    dir: ./overlays
