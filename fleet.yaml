@@ -2,5 +2,5 @@ clusterName: foo2-custom
 dependsOn:
   - name: argocd
 helm:
-  repo: https://charts.bitnami.com/bitnami/argo-cd
+  repo: https://kubernetes-charts.storage.googleapis.com
   chart: ./chart
