@@ -3,3 +3,4 @@ dependsOn:
   - name: argocd
 helm:
   repo: https://charts.bitnami.com/bitnami/argo-cd
+  chart: ./chart
