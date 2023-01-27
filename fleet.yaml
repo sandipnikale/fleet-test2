@@ -1,5 +1,11 @@
 clusterName: foo2-custom
 dependsOn:
   - name: argocd
+  
+
+helm:
+  chart: ./chart
+  repo: https://git.rancher.io/partner-charts
+  
 kustomize:
    dir: ./overlays
