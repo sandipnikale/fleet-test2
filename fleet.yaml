@@ -2,4 +2,4 @@ clusterName: foo2-custom
 dependsOn:
   - name: argocd
 helm:
-  repo: https://argoproj.github.io/argo-helm
+  repo: https://charts.bitnami.com/bitnami/argo-cd
