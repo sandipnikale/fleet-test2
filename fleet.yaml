@@ -1,6 +1,5 @@
 clusterName: foo2-custom
 dependsOn:
   - name: argocd
-helm:
-  
-  chart: ./chart
+kustomize:
+   dir: ./overlays
