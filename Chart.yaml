@@ -3,6 +3,8 @@ name: system-chart
 description: A wrapper chart for argo CD including app of apps template, nginx and potentially future charts
 type: application
 
+namespace: argocd
+
 dependencies:
   - name: argo-cd
     version: 5.19.8
