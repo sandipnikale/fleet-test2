@@ -1,7 +1,7 @@
 clusterName: foo2-custom
 
 helm:
-  chart: ./chart
+  chart: ./chart/chart
   
 yaml: 
   ./overlays/nginx.yaml
