@@ -1,0 +1,5 @@
+clusterName: foo2-custom
+
+helm:
+  chart: ./chart
+  
