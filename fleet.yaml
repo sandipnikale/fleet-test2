@@ -3,8 +3,8 @@ clusterName: foo2-custom
 helm:
   chart: ./chart
   
-yaml:
-   ./overlays/nginx.yaml
+yaml: 
+  ./overlays/nginx.yaml
     
 
 
