@@ -4,7 +4,7 @@ helm:
   chart: ./chart/chart
   
 yaml: 
-  ./overlays/nginx.yaml
+  -template
     
 
 
